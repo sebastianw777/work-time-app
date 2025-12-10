@@ -11,6 +11,3 @@ A simple work timer GUI in Python using Tkinter. Tracks work sessions and logs t
 ## Requirements
 - Python 3.x
 - Tkinter (usually included with Python)
-
-## Usage
-1. Clone the repository:
