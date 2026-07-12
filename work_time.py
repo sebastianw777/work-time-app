@@ -69,7 +69,7 @@ def stop_timer():
 # Save log system
 def save_to_file(action):
     global hours, minutes, seconds, current_user
-    now = datetime.now().replace(microsecond=0)  # generujemy aktualny czas tu i teraz
+    now = datetime.now().replace(microsecond=0)  
     entry = f"{now} | {current_user} | {action} | {hours:02d}:{minutes:02d}:{seconds:02d}\n"
     with open(file_path, "a", encoding="utf-8") as f:
         f.write(entry)
